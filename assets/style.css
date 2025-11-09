@@ -1,0 +1,118 @@
+.main-header {
+    background: linear-gradient(135deg, #E50914 0%, #B81D24 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin: 0.5rem 0 0 0;
+}
+
+.sidebar-header {
+    background: #f0f2f6;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.sidebar-header h3 {
+    margin: 0;
+    color: #E50914;
+}
+
+/* Custom metric cards */
+[data-testid="metric-container"] {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid #E50914;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #f0f2f6;
+    border-radius: 10px 10px 0px 0px;
+    gap: 1px;
+    padding: 10px 20px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #E50914;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    background: #f0f2f6;
+    border-radius: 10px;
+    color: #666;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E50914;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #B81D24;
+}
+
+/* Loading animation */
+.stSpinner > div {
+    border-top-color: #E50914 !important;
+}
+
+/* Custom button styling */
+.stButton > button {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #B81D24;
+    transform: translateY(-2px);
+}
+
+/* Dataframe styling */
+.dataframe {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Plotly chart customization */
+.js-plotly-plot .plotly .modebar {
+    background: transparent !important;
+}
